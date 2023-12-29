@@ -1,0 +1,13 @@
+.header {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+
+/* Mobile styles */
+@media (max-width: 640px) {
+  .header {
+    top: 24px;
+    left: 24px;
+  }
+}

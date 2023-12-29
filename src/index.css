@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+body {
+  background-color: #fafafb;
+  @apply font-inter;
+}
+
+.card {
+  @apply flex flex-col m-auto bg-white rounded-xl shadow-xl py-8 px-4 mx-6 z-10;
+}
+@tailwind utilities;
